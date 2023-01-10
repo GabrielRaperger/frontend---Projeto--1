@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+
+:root {
+  --header-height: 60px;
+  --menu-width: 240px;
+  --main-gradient: linear-gradient(to right, #5b67ca, #5451d6);
+  --hover-dark-bg: rgba(0, 0, 0, 0.2);
+  --shadow-menu: 2px 0 10px 0 rgba(0, 0, 0, 0.12),
+    2px 0 15px 0 rgba(0, 0, 0, 0.09);
+  --text-color-grey: #808191;
+  --bg-color: #f2f2f7;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+#app {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: var(--header-height) 1fr;
+  grid-template-columns: var(--menu-width) 1fr;
+  grid-template-areas:
+    "header header"
+    "menu content";
+}
+#app.hide-menu {
+  grid-template-areas:
+    "header header"
+    "content content";
+}

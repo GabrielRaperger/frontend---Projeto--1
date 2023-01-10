@@ -1,0 +1,3 @@
+.rdt_TableRow:hover {
+  background-color: var(--hover-dark-bg);
+}

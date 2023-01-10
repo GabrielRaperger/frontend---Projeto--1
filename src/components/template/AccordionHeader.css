@@ -1,0 +1,17 @@
+.accordion-header {
+  display: flex;
+}
+
+.accordion-header-icon {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-header-icon i {
+  font-size: 2rem;
+}
+
+.accordion-header-title h5 {
+  font-size: 2rem;
+  margin-left: 15px;
+}

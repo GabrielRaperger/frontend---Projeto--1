@@ -1,0 +1,32 @@
+.header {
+  grid-area: header;
+  background: var(--main-gradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  flex-grow: 1;
+  text-align: center;
+}
+
+header.header > a.toogle {
+  cursor: pointer;
+  width: 60px;
+  height: 100%;
+  color: white;
+  justify-self: flex-start;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header.header > a.toogle:hover {
+  color: white;
+  background-color: var(--hover-dark-bg);
+}

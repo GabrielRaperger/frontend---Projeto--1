@@ -1,0 +1,10 @@
+.content {
+  grid-area: content;
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+
+.content-box {
+  background-color: white;
+  border-radius: 10px;
+}

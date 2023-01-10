@@ -1,0 +1,37 @@
+.menu {
+  grid-area: menu;
+  background-color: white;
+  box-shadow: var(--shadow-menu);
+  position: relative;
+}
+
+.menu-area a {
+  display: block;
+  text-decoration: none;
+  color: var(--text-color-grey);
+  font-weight: 300;
+  padding: 15px;
+}
+
+.menu-area a:hover {
+  color: white;
+  background: var(--main-gradient);
+}
+
+.menu-item-active {
+  color: white !important;
+  cursor: pointer;
+  background: var(--main-gradient);
+}
+
+.user-email {
+  display: inline-block;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.logout-button {
+  margin-top: 120px;
+}
